@@ -1,5 +1,7 @@
 # Plant Whisperer - IoT Project
 
+Complete Guide: Project Overview, Sensor Integration & Functionality
+
 ## Overview
 Plant Whisperer is an IoT-based smart plant monitoring system using an ESP32 microcontroller. It measures environmental parameters like soil moisture, temperature, humidity, and light intensity using various sensors and sends this data to the ThingSpeak platform for real-time remote monitoring.
 
