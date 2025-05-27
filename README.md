@@ -28,4 +28,18 @@ Plant Whisperer is a smart plant monitoring system built using ESP32 and various
 
 ## ThingSpeak Setup
 
-1.
+1. Create a free account on [ThingSpeak](https://thingspeak.com).
+2. Create a new channel for your plant monitoring project.
+3. Generate a **Write API Key** from the channel settings.
+4. Use this API key in your ESP32 code to send sensor data to ThingSpeak.
+5. Visualize your sensor data in real-time on ThingSpeak dashboards.
+
+---
+
+## Managing API Keys
+
+- **Important:** Do not commit your real ThingSpeak API keys to GitHub.
+- Use placeholders in your code like:
+
+  ```cpp
+  const char* thingspeakApiKey = "YOUR_API_KEY_HERE"; // Replace before uploading
